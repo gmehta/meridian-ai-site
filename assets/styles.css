@@ -96,8 +96,10 @@ p { margin: 0; color: var(--ink-dim); }
 /* -------------------- Header -------------------- */
 
 header.site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 50;
   background: transparent;
   padding: 14px 20px 0;
@@ -111,7 +113,7 @@ header.site-header {
   padding: 10px 12px 10px 22px;
   max-width: var(--max-width);
   margin: 0 auto;
-  border-radius: 999px;
+  border-radius: 20px;
   background: rgba(8, 12, 16, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -486,7 +488,7 @@ section.tight { padding: 56px 0; }
 
 /* -------------------- Page header (interior pages) -------------------- */
 .page-hero {
-  padding: 72px 0 48px;
+  padding: 128px 0 48px;
   border-bottom: 1px solid var(--line);
 }
 .page-hero .eyebrow { margin-bottom: 18px; }
