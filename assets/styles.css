@@ -99,18 +99,24 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(6, 10, 14, 0.72);
-  backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  padding: 14px 20px 0;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 28px;
+  gap: 24px;
+  padding: 10px 12px 10px 22px;
   max-width: var(--max-width);
   margin: 0 auto;
+  border-radius: 999px;
+  background: rgba(8, 12, 16, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
 }
 
 .brand {
